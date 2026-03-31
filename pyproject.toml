@@ -1,0 +1,14 @@
+[project]
+name = "text-to-sql"
+version = "0.1.0"
+description = "A Python package for converting natural language queries into SQL statements using large language models."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.86.0",
+    "httpx>=0.28.1",
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
+    "python-dotenv>=1.2.2",
+    "voyageai>=0.3.7",
+]
